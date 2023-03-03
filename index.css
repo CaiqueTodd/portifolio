@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("_styles/header.css");
+@import url("_styles/banner.css");
+@import url("_styles/aboutme.css");
+@import url("_styles/project.css");
+
+:root {
+    --fonte--principal: "Ubuntu";
+}
+
+body {
+    font-size: 16px;
+}
+
+main {
+    padding: 0 6em;
+}

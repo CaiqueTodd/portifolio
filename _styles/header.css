@@ -1,0 +1,51 @@
+.cabecalho__containner {
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 5px 2px 15px #CCCCCC;
+    border-radius: 10px;
+    padding: 0 2em;
+}
+
+.cabecalho__containner__barra {
+    color: #000000;
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+
+.cabecalho__containner__barra img {
+    width: 12%;
+}
+
+.cabecalho__containner__menu {
+    display: flex;
+    gap: 1em;
+}
+
+.cabecalho__containner__menu a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0.5em;
+    white-space: nowrap
+
+}
+
+.cabecalho__containner__menu a:hover {
+    transition: 0.5s;
+    background-color: #444444;
+    color: #ffffff;
+    border-radius: 10px;
+}

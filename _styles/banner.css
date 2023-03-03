@@ -1,0 +1,29 @@
+.apresentacao__conteudo {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+}
+
+.apresentacao__conteudo__texto {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    padding: 5% 0% 0% 0%;
+}
+
+.apresentacao__conteudo__texto__paragrafo {
+    font-size: 26px;
+}
+
+.apresentacao__conteudo__texto__destaque {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.imagem__principal {
+    width: 60%;
+}
+

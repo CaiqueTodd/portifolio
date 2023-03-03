@@ -1,0 +1,47 @@
+.apresentacao__sobremim {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.sobre__mim {
+    display: flex;
+    gap: 5em;
+    margin-top: 3em;
+}
+
+.apresentacao__sobremim__foto_download {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5em;
+}
+
+.botao__download {
+    color: #000000;
+    background-color: #44ccff;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.apresentacao__sobremim__titulo {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+.apresentacao__sobremim__conteudo {
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+}
+
+.logo__caique {
+    width: 16em;
+ }

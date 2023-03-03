@@ -1,0 +1,66 @@
+.project {
+    padding-top: 2%;
+    height: 100vh;
+    
+}
+
+.project__titulo {
+    margin-top: em;
+}
+
+.projetos {
+    font-display: flex;
+}
+
+.projetos__box {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projeto__janela {
+    margin-top: 3em;
+}
+
+.projetos__box__vh {
+    width: 300px;
+    height: 150px;
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 24px;
+    background-image:  #ffffff;
+    background-position: center;
+    box-shadow: 5px 2px 15px #CCCCCC;
+}
+
+.projeto__janela__titulo {
+    font-size: 30px;
+    text-align: center;
+    font-family: var(--fonte--principal);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+
+.projeto__janela__tecnologia {
+    font-family: var(--fonte--principal);
+    font-size: 20px;
+}
+
+.janela__1 {
+    background-image: url(../_imagens/Menu.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.janela__2 {
+    background-image: url(../_imagens/alura-plus.PNG);
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+
+.janela__3 {
+    background-image: url(../_imagens/alura-book.PNG);
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
