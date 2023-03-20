@@ -1,30 +1,33 @@
-.cabecalho__containner {
+.cabecalho {
     position: fixed;
     width: 100%;
+    background-color: var(--cor-branco);
+    box-shadow: 5px 2px 15px #CCCCCC;
+    border-radius: 10px;
+    height: auto;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
-    box-shadow: 5px 2px 15px #CCCCCC;
-    border-radius: 10px;
     padding: 0 2em;
 }
 
 .cabecalho__containner__barra {
-    color: #000000;
+    color: var(--cor-preto);
     font-size: 45px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     display: flex;
     align-items: center;
     gap: 3%;
+    white-space: nowrap
+
 }
 
 .cabecalho__containner__barra img {
-    width: 12%;
+    width: 100px;
 }
 
 .cabecalho__containner__menu {
