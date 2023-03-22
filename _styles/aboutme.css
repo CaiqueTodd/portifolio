@@ -49,6 +49,7 @@
  @media screen and (max-width: 1024px) {
     .apresentacao__sobremim__titulo {
         font-size: 4vh;
+        margin: 120px 0 0 0;
     }
     
     .apresentacao__sobremim {

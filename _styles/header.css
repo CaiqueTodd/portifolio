@@ -85,14 +85,14 @@ nav {
         top: 11vh;
         right: 0;
         width: 50vw;
-        height: 100vh;
+        height: auto;
         background: #ffffff;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: start;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
-        box-shadow: 5px 2px 15px #CCCCCC;
+        box-shadow: -5px 5px 15px #CCCCCC;
     }
 
     .cabecalho__lista.active {
