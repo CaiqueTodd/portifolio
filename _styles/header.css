@@ -7,6 +7,12 @@
     height: auto;
 }
 
+#burguer {
+    background-color: #ffffff;
+    display: block;
+    text-align: ;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
