@@ -21,7 +21,6 @@ class MobileNavbar {
         this.animateLinks
     }
 
-
     addClickEvent() {
         this.mobileMenu.addEventListener("click", this.handleClick);
     }
