@@ -7,41 +7,59 @@
     height: auto;
 }
 
+.logo__titulo {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: #000000;
+    transition: 0.3s;
+    letter-spacing: 2px;
+}
+
+.cabecalho__menu-hamburguer {
+    display: none;
+    cursor: pointer;
+}
+
+.cabecalho__menu-hamburguer div {
+    width: 32px;
+    height: 2px;
+    background-color: #000000;
+    margin: 8px;
+}
+
+.logo__titulo:hover {
+    opacity: 0.7;
+}
+
+.logo__imagem {
+    width: 100px;
+}
+
 #burguer {
     background-color: #ffffff;
-    display: block;
-    text-align: ;
+    display: none;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 0 2em;
-}
-
-.cabecalho__containner__barra {
-    color: var(--cor-preto);
-    font-size: 45px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    gap: 3%;
-    white-space: nowrap
-
+    padding: 0 0em;
+    height: 11vh;
 }
 
 .cabecalho__containner__barra img {
     width: 100px;
 }
 
-.cabecalho__containner__menu {
+.cabecalho__lista {
     display: flex;
     gap: 1em;
 }
 
-.cabecalho__containner__menu a {
+.cabecalho__item {
     color: #000000;
     text-decoration: none;
     display: block;
@@ -49,7 +67,6 @@ nav {
     font-family: 'Ubuntu', sans-serif;
     padding: 0.5em;
     white-space: nowrap
-
 }
 
 .cabecalho__containner__menu a:hover {
@@ -57,4 +74,46 @@ nav {
     background-color: #444444;
     color: #ffffff;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .cabecalho__lista {
+        position: absolute;
+        top: 11vh;
+        right: 0;
+        width: 50vw;
+        height: 100vh;
+        background: #ffffff;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        box-shadow: 5px 2px 15px #CCCCCC;
+    }
+
+    .cabecalho__lista.active {
+        transform: translateX(0);
+    }
+
+    .cabecalho__item {
+        margin-left: 0;
+        opacity: 1;
+    }
+
+    .cabecalho__menu-hamburguer {
+        display: block;
+    }
+
+    @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
 }
