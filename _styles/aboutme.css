@@ -45,3 +45,22 @@
 .logo__caique {
     width: 16em;
  }
+
+ @media screen and (max-width: 1024px) {
+    .apresentacao__sobremim__titulo {
+        font-size: 4vh;
+    }
+    
+    .apresentacao__sobremim {
+        flex-direction: column;
+    }
+
+    .sobre__mim {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .apresentacao__sobremim__conteudo {
+        font-size: 2vh;
+    }
+ }

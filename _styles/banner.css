@@ -27,9 +27,14 @@
     width: 60%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {    
     .apresentacao__conteudo {
         flex-direction: column;
+        height: 100vh;
+    }
+
+    .apresentacao__conteudo__texto {
+        text-align: start;
     }
 
     .imagem__principal {

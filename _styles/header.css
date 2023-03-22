@@ -4,7 +4,6 @@
     background-color: var(--cor-branco);
     box-shadow: 5px 2px 15px #CCCCCC;
     border-radius: 10px;
-    height: auto;
 }
 
 .logo__titulo {
@@ -50,10 +49,6 @@ nav {
     height: 11vh;
 }
 
-.cabecalho__containner__barra img {
-    width: 100px;
-}
-
 .cabecalho__lista {
     display: flex;
     gap: 1em;
@@ -77,6 +72,14 @@ nav {
 }
 
 @media screen and (max-width: 1024px) {
+    .logo__titulo {
+        font-size: 3vh;
+    }
+    
+    .logo__imagem {
+        width: 9vh;
+    }
+
     .cabecalho__lista {
         position: absolute;
         top: 11vh;
