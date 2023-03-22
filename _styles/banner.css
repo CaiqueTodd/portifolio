@@ -27,3 +27,13 @@
     width: 60%;
 }
 
+@media screen and (max-width: 1024px) {
+    .apresentacao__conteudo {
+        flex-direction: column;
+    }
+
+    .imagem__principal {
+        align-items: center;
+        width: 40vh;
+    }
+}
